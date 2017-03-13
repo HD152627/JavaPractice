@@ -9,7 +9,7 @@ package org.dimigo.basic;
  *   |_ PrimitiveDataType
  * 
  * 1. 개요 :	아이유 프로필 출력하기
- * 2. 작성일 : 2017. 3. 9.
+ * 2. 작성일 : 2017. 3. 13.
  * </pre>
  * 
  * @author		: LimBeongjun
@@ -34,6 +34,7 @@ public class PrimitiveDataType {
 		System.out.printf("키 : %.1fcm\n",height);
 		System.out.printf("몸무게 : %.1fkg\n",weight);
 		System.out.printf("혈액형 : %c",bloodType);
+
 	}
 
 }
