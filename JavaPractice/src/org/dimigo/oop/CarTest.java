@@ -42,7 +42,7 @@ public class CarTest {
 		System.out.println("가격:"+String.format("%,d",car2.getPrice())+"원");
 		System.out.println();
 		Car car3=new Car();
-		car3.setCompany("삼성자동차");
+		car3.setCompany("삼성자동차"); 
 		car3.setModel("SM7");
 		car3.setColor("회색");
 		car3.setMaxSpeed(200);
