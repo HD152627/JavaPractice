@@ -15,7 +15,7 @@ package org.dimigo.inheritance;
  * @author		: LimBeongjun
  * @version		: 1.0
  */
-public class SmartPhone {
+public abstract class SmartPhone {
 	private String model;
 	private String company;
 	private int price;
@@ -33,9 +33,7 @@ public class SmartPhone {
 	public void turnOff(){
 		System.out.println(model+"의 전원을 끕니다.");
 	}
-	public void pay(){
-		System.out.println("결제합니다");
-	}
+	public abstract void pay();
 	public void useSpecialFunction(SmartPhone phone){
 		if(phone instanceof IPhone){
 			((IPhone) phone).useAirDrop();

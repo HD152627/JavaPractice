@@ -34,12 +34,12 @@ public abstract class SmartPhone {
 		System.out.println(model+"의 전원을 끕니다.");
 	}
 	public abstract void pay();
-	public void useSpecialFunction(SmartPhone phone){
-		if(phone instanceof IPhone){
-			((IPhone) phone).useAirDrop();
+	public void useSpecialFunction(){
+		if(this instanceof IPhone){
+			((IPhone) this).useAirDrop();
 		}
-		else if(phone instanceof Galaxy){
-			((Galaxy) phone).useWirelessCharging();
+		else if(this instanceof Galaxy){
+			((Galaxy) this).useWirelessCharging();
 		}
 	}
 	public String toString() {
